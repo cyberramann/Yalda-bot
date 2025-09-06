@@ -21,3 +21,15 @@ app.add_handler(MessageHandler(filters.ALL, forward_message))
 
 print("Bot is running...")
 app.run_polling()
+import os
+from flask import Flask
+
+app = Flask(_name_)
+
+# This is where your original script logic goes
+@app.route('/')
+def home():
+    return "My service is running!"
+
+if _name_ == '_main_':
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
