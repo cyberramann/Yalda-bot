@@ -2,8 +2,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
 # Replace with your bot token and personal Telegram ID
-BOT_TOKEN = "8426690338:AAHVKQyeoL2mTBnThXpZMwYhBMWxVIJyf9Y"
-MY_CHAT_ID = 7669621320
+BOT_TOKEN = "7995858072:AAHys7zLfLK7n5RtqamTGTG66kByUmwx3ko"
+MY_CHAT_ID = 8009010717
 
 async def forward_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Forward the incoming message to your Telegram account
